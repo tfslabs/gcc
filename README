@@ -1,0 +1,11 @@
+Unofficial minor of GNU Compiler Collection
+
+For more detail, using this git command may help you to find the recent versions of GNU Compiler Collection
+
+    git branch -a
+
+Once you find your proper branch, check out this branch and start developing it
+    
+    git checkout <branch name>
+
+Happy developing!
