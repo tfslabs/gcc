@@ -32,6 +32,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           rm .github/workflows/*
+          rm gcc-14.2.0.tar.xz
           git add .
           git commit -m "GNU Compiler Collection core forking for GitHub Actions, version 14.2.0"
           git push
