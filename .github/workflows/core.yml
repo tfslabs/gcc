@@ -3,7 +3,7 @@ name: GNU Compiler Collection core forking for GitHub Actions
 on:
   push:
     branches:
-      - no-available-just-rename-in-case-you-want
+      - 14.2.0
 
 permissions:
   contents: write
