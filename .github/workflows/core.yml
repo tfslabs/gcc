@@ -19,7 +19,7 @@ jobs:
 
       - name: Obtain source code from ftp.gnu.org
         run: |
-          wget https://ftp.gnu.org/gnu/gcc/gcc-$GCC_VERSION/gcc-14.2.0.tar.xz -O gcc-14.2.0.tar.xz
+          wget https://ftp.gnu.org/gnu/gcc/gcc-14.2.0/gcc-14.2.0.tar.xz -O gcc-14.2.0.tar.xz
 
       - name: Install Zstandard for Extraction
         run: sudo apt install -y xz-utils tar
